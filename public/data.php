@@ -33,5 +33,17 @@ echo json_encode([
                 'onChange' => 'this.query',
             ]
         ],
+        'someid3' => [
+
+            // control type
+            'type' => 'mInput',
+
+            // control options
+            'options' => [
+                'elementId' => 'js-input3',
+                'type' => 'hidden',
+                'value' => 'hidden_value',
+            ]
+        ],
     ],
 ]);
